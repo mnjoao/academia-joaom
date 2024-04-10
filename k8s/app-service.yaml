@@ -1,0 +1,43 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: academia-app
+spec:
+  selector:
+    app: academia-app
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+  type: NodePort  
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: academia-app
+spec:
+  replicas: 4
+  selector:
+    matchLabels:
+      app: academia-app
+  template:
+    metadata:
+      labels:
+        app: academia-app
+    spec:
+      containers:
+      - name: academia-app
+        image: mnjoao/academia:V1
+        ports:
+        - containerPort: 8080
+        env:
+        - name: SPRING_DATASOURCE_URL
+          value: jdbc:mysql://mysql-db:3306/academiaDB
+        - name: HABILITAR_CARREGAR_MASSA_DADOS
+          value: "false"
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 8080
+          initialDelaySeconds: 15  # Aguarda 15 segundos antes da primeira verificação
+          periodSeconds: 10000  # Verifica a cada 10 segundos se o contêiner está vivo
