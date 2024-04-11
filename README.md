@@ -16,6 +16,7 @@ Este projeto consiste na implementação de um sistema utilizando Spring Boot. O
 <h3>3.</h3>Crie a estrutura para monitorar sua aplicação com o Prometheus e o Grafana (Ou qualquer ferramenta a sua escolha[Você deve ter um servidor de métricas e alguma ferramenta para dashboards.]) Apenas o Grafana deverá ficar acessível para fora do Cluster. Utilize um PVC para escrever os dados do Prometheus de maneira persistente. Crie dashboards do Grafana que exponha dados sensíveis da sua aplicação. (Memória, cpu, etc.)
 
 ![Captura de tela 2024-04-10 184243](https://github.com/mnjoao/academia-joaom/assets/55205843/ff15a5c4-7070-4b75-a674-16eb19b6ee7d)
+![image](https://github.com/mnjoao/academia-joaom/assets/55205843/872d6e57-e657-414d-b269-b761e85f3ac7)
 ![Captura de tela 2024-04-10 184133](https://github.com/mnjoao/academia-joaom/assets/55205843/10843866-9620-4689-9bc9-5cac4bdf8b28)
 ![dash grafana](https://github.com/mnjoao/academia-joaom/assets/55205843/5dfe7a2f-a628-4c89-8722-77920b0a67fe)
 
