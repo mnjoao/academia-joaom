@@ -24,6 +24,8 @@ Este projeto consiste na implementação de um sistema utilizando Spring Boot. O
 
 ![image](https://github.com/mnjoao/academia-joaom/assets/55205843/55d83107-a7aa-43b4-8b19-90ed4f44f29e)
 
-<h3>5.</h3>Execute um stress test do seu projeto e tire print do Dashboard sofrendo alterações.
+<h3>5.</h3> Execute um stress test do seu projeto e tire print do Dashboard sofrendo alterações.
 
+![image](https://github.com/mnjoao/academia-joaom/assets/55205843/d3dd7cef-9644-4c92-9107-695d3adf9364)
 
+![image](https://github.com/mnjoao/academia-joaom/assets/55205843/cc2447d7-61cd-4e69-b479-7124b5f78195)
