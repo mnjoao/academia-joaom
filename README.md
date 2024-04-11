@@ -20,10 +20,9 @@ Este projeto consiste na implementação de um sistema utilizando Spring Boot. O
 ![Captura de tela 2024-04-10 184133](https://github.com/mnjoao/academia-joaom/assets/55205843/10843866-9620-4689-9bc9-5cac4bdf8b28)
 ![dash grafana](https://github.com/mnjoao/academia-joaom/assets/55205843/5dfe7a2f-a628-4c89-8722-77920b0a67fe)
 
+<h3>4.</h3> Utilize o Jenkins (ou qualquer ferramenta) para criar um pipeline de entrega do seu projeto.
 
-<h3>4.</h3Utilize o Jenkins (ou qualquer ferramenta) para criar um pipeline de entrega do seu projeto.
-
-
+![image](https://github.com/mnjoao/academia-joaom/assets/55205843/55d83107-a7aa-43b4-8b19-90ed4f44f29e)
 
 <h3>5.</h3>Execute um stress test do seu projeto e tire print do Dashboard sofrendo alterações.
 
