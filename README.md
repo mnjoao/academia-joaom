@@ -28,4 +28,5 @@ Este projeto consiste na implementação de um sistema utilizando Spring Boot. O
 
 ![image](https://github.com/mnjoao/academia-joaom/assets/55205843/d3dd7cef-9644-4c92-9107-695d3adf9364)
 
-![image](https://github.com/mnjoao/academia-joaom/assets/55205843/cc2447d7-61cd-4e69-b479-7124b5f78195)
+![image](https://github.com/mnjoao/academia-joaom/assets/55205843/1f4491a2-3b05-404d-ab2e-8204e671ca3d)
+
